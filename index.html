@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="action">
+        
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+
+        <label for="lname">last name</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+
+        <label for="mail">Email</label><br>
+        <input type="text" id="Email" name="Email" placeholder="Email" >
+         <br>
+         <label for="address"><Address></label><br>
+         <input type="text" id="Address" name="Address" placeholder="Address" >
+         <br>
+         <label for="state">state</label><br>
+            <input type="text" id="state" name="Email" placeholder="state" >
+            <br>
+
+        <label for="datemax">data of brith</label>
+        <input type="date" id="datemax" name="datemax" max="2100-12-31"><br><br>
+
+        <label for="food"> food</label>
+         <br> 
+
+        <input type="radio" id="india" name="india" placeholder="india">
+        <label for="india">india</label>
+
+        <input type="radio" id="southindia" name="southindia" placeholder="southindia">
+        <label for="southindia">sout india</label>
+
+        <input type="radio" id="northindia" name="northindia" placeholder="northindia">
+        <label for="northindia">northindia</label>
+        <input type="radio" id="kerala" name="kerala" placeholder="kerala"><br>
+        <label for="kerala">kerala</label>
+    
+        <input type="radio" id="northest" name="northest" placeholder="northest">
+        <lable for="northest">northest</lable>
+<br>
+
+      <label for="gender"> gender</label>
+    <br>
+        <input type="radio" id="male" name="option" value="male">
+        <lable for="male">male</lable><br> 
+
+        <input type="radio" id="female" name="option" value="female">
+        <lable for="female">female</lable><br>
+    
+        <input type="radio" id="other" name="option" value="other">
+        <lable for="other">other</lable><br>
+          <div>
+            <input class="btn btn-primary" type="submit" onclick="submitButton" value="Submit">
+          </div> 
+    <div>
+      <form action="action">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Firstname</th>
+                <th scope="col">lastname</th>
+                <th scope="col">Email</th>
+                <th scope="col">data of brith</th>
+                <th scope="col">gender</th>
+                <th scope="col">Address</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="tbody">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>               
+                <td></td>
+            
+              </tr>
+            </tbody>
+          </table>
+    </div>    
+    </form>
+  </form>
+    <script src="script.js"></script>
+</body>
+</html>
